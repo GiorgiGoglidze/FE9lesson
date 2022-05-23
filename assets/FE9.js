@@ -1,22 +1,22 @@
-var str1 = prompt("ხელფსი",7500);
+var str1 = prompt("ხელფსი",4000);
 
 
-var sum = parseInt( str1);
+var salary = parseInt( str1);
 
-if (sum<=1000 ){
+if (salary<=1000 ){
     alert("ხელფასი დაბალია");
 
 }
-else if ( sum>1000 &&  sum<2000){
+else if ( salary>1000 &&  salary<2000){
     alert("ხელფასი საშუალოზე დაბალია"); 
 }
 
-else if ( sum>2000 &&  sum<3000){
+else if ( salary>2000 && salary<3000){
     alert("საშუალო ხელფასია"); 
 }
 
 
-else if ( sum>3000 &&  sum<5000){
+else if ( salary>3000 &&  salary<5000){
     alert("ხელფასი საშუალოზე მაღალია"); 
 }
 
